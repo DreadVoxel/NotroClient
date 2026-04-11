@@ -1,0 +1,54 @@
+{
+  "id": "NotroClient-1.8.9",
+  "inheritsFrom": "1.8.9",
+  "type": "release",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "jar": "1.8.9",
+  "minecraftArguments": "--tweakClass notroclient.tweaker.ClientTweaker --username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type}",
+  "libraries": [
+    {
+      "name": "notroclient:NotroClient:1.8.9",
+      "downloads": {
+        "artifact": {
+          "path": "notroclient/NotroClient/1.8.9/NotroClient-1.8.9.jar",
+          "url": "https://github.com/DreadVoxel/NotroClient/releases/download/1.8.9/NotroClient-1.8.9.jar",
+          "sha1": "bc955819811d4f4b3bbf167348f7314f83b61358",
+          "size": 1621029
+        }
+      }
+    },
+    {
+      "name": "org.spongepowered:mixin:0.7.11-20180703.121122-1",
+      "downloads": {
+        "artifact": {
+          "path": "org/spongepowered/mixin/0.7.11-SNAPSHOT/mixin-0.7.11-20180703.121122-1.jar",
+          "url": "https://repo.spongepowered.org/repository/maven-public/org/spongepowered/mixin/0.7.11-SNAPSHOT/mixin-0.7.11-20180703.121122-1.jar",
+          "sha1": "7a670207bdb97db418118ad1e9bb42424ff3776d",
+          "size": 1017668
+        }
+      }
+    },
+    {
+      "name": "org.ow2.asm:asm-all:5.0.3",
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+          "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+          "sha1": "4333508b8dd8ee72aa4e39afa713b3a74579b773",
+          "size": 241639
+        }
+      }
+    },
+    {
+      "name": "net.minecraft:launchwrapper:1.12",
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+          "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+          "size": 32999
+        }
+      }
+    }
+  ]
+}

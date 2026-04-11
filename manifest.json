@@ -1,0 +1,23 @@
+{
+  "name": "Notro Client",
+  "version": "1.0.0",
+  "minecraft": "1.8.9",
+  "releaseDate": "2025-01-01",
+  "changelog": [
+    "Initial release."
+  ],
+  "variants": [
+    {
+      "id": "vanilla",
+      "label": "Vanilla",
+      "versionId": "NotroClient",
+      "versionJson": "https://github.com/DreadVoxel/NotroClient/releases/download/1.8.9/NotroClient.json"
+    },
+    {
+      "id": "optifine",
+      "label": "OptiFine",
+      "versionId": "NotroClient-OptiFine",
+      "versionJson": "https://github.com/DreadVoxel/NotroClient/releases/download/1.8.9/NotroClient-OptiFine.json"
+    }
+  ]
+}
