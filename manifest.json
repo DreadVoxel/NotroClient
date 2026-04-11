@@ -10,14 +10,14 @@
     {
       "id": "vanilla",
       "label": "Vanilla",
-      "versionId": "NotroClient",
-      "versionJson": "https://github.com/DreadVoxel/NotroClient/releases/download/1.8.9/NotroClient.json"
+      "versionId": "NotroClient-1.8.9",
+      "versionJson": "https://raw.githubusercontent.com/DreadVoxel/NotroClient/main/versions/1.8.9/NotroClient-1.8.9.json"
     },
     {
       "id": "optifine",
       "label": "OptiFine",
-      "versionId": "NotroClient-OptiFine",
-      "versionJson": "https://github.com/DreadVoxel/NotroClient/releases/download/1.8.9/NotroClient-OptiFine.json"
+      "versionId": "NotroClient_OptiFine-1.8.9",
+      "versionJson": "https://raw.githubusercontent.com/DreadVoxel/NotroClient/main/versions/1.8.9/NotroClient_Optifine-1.8.9.json"
     }
   ]
 }
