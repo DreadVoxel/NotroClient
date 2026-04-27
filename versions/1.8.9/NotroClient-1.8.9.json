@@ -12,8 +12,8 @@
         "artifact": {
           "path": "notroclient/NotroClient/1.8.9/NotroClient-1.8.9.jar",
           "url": "https://github.com/DreadVoxel/NotroClient/releases/download/1.8.9/NotroClient-1.8.9.jar",
-          "sha1": "bc955819811d4f4b3bbf167348f7314f83b61358",
-          "size": 1621029
+          "sha1": "7e9758a65a429a410480bad7dccf624e52f7a682",
+          "size": 1755193
         }
       }
     },
